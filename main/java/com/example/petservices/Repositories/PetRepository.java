@@ -1,6 +1,6 @@
-package com.example.petservices.Repositories;
+package br.com.PojetoPraPets.Repositories;
 
-import com.example.petservices.Models.Pet;
+import br.com.PojetoPraPets.Models.Pet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,4 +8,3 @@ import org.springframework.stereotype.Repository;
 public interface PetRepository extends JpaRepository<Pet, Long> {
 
 }
-
