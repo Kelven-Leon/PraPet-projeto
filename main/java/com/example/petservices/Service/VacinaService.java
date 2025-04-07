@@ -1,8 +1,7 @@
-package com.example.petservices.Service;
+package br.com.PojetoPraPets.Service;
 
-
-import com.example.petservices.Models.Vacina;
-import com.example.petservices.Repositories.VacinaRepository;
+import br.com.PojetoPraPets.Models.Vacina;
+import br.com.PojetoPraPets.Repositories.VacinaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,4 +28,3 @@ public class VacinaService {
         vacinaRepository.deleteById(id);
     }
 }
-
