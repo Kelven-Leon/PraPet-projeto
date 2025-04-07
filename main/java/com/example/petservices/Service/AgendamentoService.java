@@ -1,7 +1,8 @@
-package com.example.petservices.Service;
+package br.com.PojetoPraPets.Service;
 
-import com.example.petservices.Models.Agendamento;
-import com.example.petservices.Repositories.AgendamentoRepository;
+
+import br.com.PojetoPraPets.Models.Agendamento;
+import br.com.PojetoPraPets.Repositories.AgendamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,4 +47,3 @@ public class AgendamentoService {
         }
     }
 }
-
