@@ -1,7 +1,7 @@
-package com.example.petservices.Service;
+package br.com.PojetoPraPets.Service;
 
-import com.example.petservices.Models.Localizacao;
-import com.example.petservices.Repositories.LocalizacaoRepository;
+import br.com.PojetoPraPets.Models.Localizacao;
+import br.com.PojetoPraPets.Repositories.LocalizacaoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -28,4 +28,3 @@ public class LocalizacaoService {
         localizacaoRepository.deleteById(id);
     }
 }
-
