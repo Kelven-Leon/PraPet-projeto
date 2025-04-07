@@ -1,7 +1,7 @@
-package com.example.petservices.Service;
+package br.com.PojetoPraPets.Service;
 
-import com.example.petservices.Models.Pet;
-import com.example.petservices.Repositories.PetRepository;
+import br.com.PojetoPraPets.Models.Pet;
+import br.com.PojetoPraPets.Repositories.PetRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,5 +25,3 @@ public class PetService {
         petRepository.deleteById(id);
     }
 }
-
-
