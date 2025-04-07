@@ -1,7 +1,6 @@
-package com.example.petservices.Service;
-
-import com.example.petservices.Models.Usuario;
-import com.example.petservices.Repositories.UsuarioRepository;
+package br.com.PojetoPraPets.Service;
+import br.com.PojetoPraPets.Models.Usuario;
+import br.com.PojetoPraPets.Repositories.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -30,4 +29,3 @@ public class UsuarioService {
 
 
 }
-
