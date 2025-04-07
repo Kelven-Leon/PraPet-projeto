@@ -1,8 +1,8 @@
-package com.example.petservices.Service;
+package br.com.PojetoPraPets.Service;
 
 
-import com.example.petservices.Models.Consulta;
-import com.example.petservices.Repositories.ConsultaRepository;
+import br.com.PojetoPraPets.Models.Consulta;
+import br.com.PojetoPraPets.Repositories.ConsultaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,4 +29,3 @@ public class ConsultaService {
         consultaRepository.deleteById(id);
     }
 }
-
